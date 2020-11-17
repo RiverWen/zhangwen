@@ -1,0 +1,21 @@
+/* pages/home/home.wxss */
+.title-container {
+    width:100%;
+    height: 400rpx;
+    height: 500rpx;
+}
+.title-image {
+    width: 100%;
+    height: 400rpx;
+}
+.title-avatar {
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 50%;
+    transform: translate(50rpx, -220rpx);
+}
+.add-btn {
+    float: right;
+    margin-right: 20rpx;
+    transform: translateY(-80rpx);
+}

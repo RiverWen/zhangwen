@@ -1,0 +1,97 @@
+{
+    "miniprogramRoot": "miniprogram/",
+    "cloudfunctionRoot": "cloudfunctions/",
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "enhance": true,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": true,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "useMultiFrameRuntime": false,
+        "useApiHook": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "useIsolateContext": true,
+        "useCompilerModule": true,
+        "userConfirmedUseCompilerModuleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": []
+    },
+    "appid": "wx363d409ac8cd3212",
+    "projectname": "teaer",
+    "libVersion": "2.8.1",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "id": -1,
+                    "name": "db guide",
+                    "pathName": "pages/databaseGuide/databaseGuide",
+                    "query": ""
+                },
+                {
+                    "id": 1,
+                    "name": "blog-publish",
+                    "pathName": "pages/blog-publish/blog-publish",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/honor/honor",
+                    "pathName": "pages/honor/honor",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/addResume/addResum",
+                    "pathName": "pages/addResume/addResum",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/showreel/showreel",
+                    "pathName": "pages/showreel/showreel",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "add-collection",
+                    "pathName": "pages/add-collection/add-collection",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "collection",
+                    "pathName": "pages/collection/collection",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

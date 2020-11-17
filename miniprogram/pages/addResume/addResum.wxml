@@ -1,0 +1,21 @@
+
+<view class="image-wraper" >
+    <block wx:if="{{imageUrl.length > 0}}">
+        <image class="image" src="{{imageUrl}}" mode="aspectFill"></image>
+    </block>
+</view>
+<view class="image-control">
+    <button bindtap="onAddImage" type="primary">Add Image</button>
+    <button bindtap="onClearImage" type="warn">Clear</button>
+</view>
+
+<view class="resume">
+  <input type="text" placeholder="简介" bindinput="onResumeInput"/>
+</view>
+
+<view class="content">
+    <textarea maxlength="1000" bindinput="onContentInput"
+    placeholder="生平"></textarea>
+</view>
+
+<button class="send-btn" bindtap="onSend" type="primary">send</button>

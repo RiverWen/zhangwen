@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText":"张文 个人官网",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f1f1f1"
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "blog-card": "/components/blog-card/blog-card"
+  },
+  "navigationBarTitleText": "动态",
+  "enablePullDownRefresh": true
+}

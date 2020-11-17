@@ -1,0 +1,31 @@
+<view class="edit-block" wx:if="{{isAdmin}}">
+    <button bindtap="onAddResume" type="primary">Add</button>
+</view>
+<view class="page-container">
+    <view class="title-box">
+        <view class="color-block"></view>
+    <text class="title-text">张 文</text>
+    </view>
+
+    <view class="image-wraper">
+        <image src="{{imageUrl}}" class="image" mode="center"></image>
+    </view>
+
+    <view class="title-box">
+        <view class="color-block"></view>
+        <text class="title-text">简介：</text>
+    </view>
+
+    <view class="content">
+        <text class="content-text">{{resume}}</text>
+    </view>
+
+    <view class="title-box">
+        <view class="color-block"></view>
+        <text class="title-text">生平：</text>
+    </view>
+
+    <view class="content">
+        <text class="content-text">{{content}}</text>
+    </view>
+</view>

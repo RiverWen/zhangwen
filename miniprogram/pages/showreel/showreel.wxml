@@ -1,0 +1,26 @@
+<view class="entrance"
+    bindtap="onAddCollection" wx:if="{{isAdmin}}"
+>Enter manager page</view>
+
+<view class="swiper-container">
+    <swiper class="swiper" autoplay="autoplay" indicator-active-color="#4c1f24"
+        indicator-dots="true" interval="3000" circular="true">
+        <block wx:for="{{swiperImages}}" wx:key="index">
+            <swiper-item>
+                <image class="swiper-image" src="{{item}}" mode="aspectFill"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+
+<block wx:for="{{productions}}" wx:key="_id">
+    <view class="production-card">
+        <view class="card-text">
+            <text class="card-title">{{item.title}}</text>
+            <text class="card-content">{{item.content}}</text>
+            <text class="card-time">{{item.timeString}}</text>
+        </view>
+            <image class="card-image" mode="aspectFill"src="{{item.imageUrls[0]}}"
+            bindtap="onImageTap" data-index="{{index}}"></image>
+    </view>
+</block>

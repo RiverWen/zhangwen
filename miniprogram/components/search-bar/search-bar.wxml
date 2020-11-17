@@ -1,0 +1,8 @@
+<view class="search-container">
+    <view class="input-box">
+        <icon class="icon-search" type="search" size="24"></icon> 
+        <input type="text" maxlength="24" class="input-bar" bindinput="onInput" value="{{keywords}}"/>
+        <icon class="icon-cancel" type="cancel" size="24" bindtap="onCancel" hidden="{{!isShowCancel}}"></icon>
+    </view>
+    <button class="search-btn" type="plain" size="mini" bindtap="onSearch">搜索</button>
+</view>

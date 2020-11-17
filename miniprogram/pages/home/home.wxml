@@ -1,0 +1,17 @@
+<!--pages/home/home.wxml-->
+<view class="title-container">
+    <image src="cloud://tear-0nmxh.7465-tear-0nmxh-1300879647/static/hehua3.jpg"
+    mode="aspectFill"
+    class="title-image"></image>
+    <image src="cloud://tear-0nmxh.7465-tear-0nmxh-1300879647/static/zhangwen.jpg"
+    mode="aspectFill"
+    class="title-avatar"></image>
+</view>
+<button wx:if="{{isAdmin}}" type="primary"  size ="mini" bindtap="onAddBlog"
+class="add-btn">add-blog</button>
+
+<block wx:for="{{blogList}}" wx:key="index">
+    <view class="blog-panel">
+        <blog-card blog="{{item}}"></blog-card>
+    </view>
+</block>

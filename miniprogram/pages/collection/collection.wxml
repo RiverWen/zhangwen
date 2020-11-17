@@ -1,0 +1,15 @@
+<search-bar bind:onCancelEvent="onCancel"
+    bind:onSearchEvent="onSearch"
+></search-bar>
+
+<view class="collections-container">
+    <block wx:for="{{collections}}" wx:key="index">
+        <view class="collection-card">
+            <image mode="aspectFill" src="{{item.imageUrls[0]}}" class="card-image" bindtap="onImageTap" data-index="{{index}}"></image>
+            <view class="card-discript">
+                <text class="card-title">《{{item.title}}》</text>
+                <text class="card-content">{{item.content}}</text>
+            </view>
+        </view>
+    </block>
+</view>
